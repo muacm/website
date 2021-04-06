@@ -1,0 +1,446 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #79808b;
+    color: whitesmoke;
+    
+}
+
+.header-i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size: contain;
+}
+.header-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/background2.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.header-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/background3.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.main-heading{
+    display: none;
+}
+.nav-item{
+    font-size: 32px;
+    font-family:"sans-serif";
+    margin-left: 0.7em;
+}
+a{
+    text-decoration: none !important;
+}
+.social-handles{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+}
+nav{
+    color: white !important;
+    background: rgba( 247, 240, 240, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    padding: 1em;
+    
+}
+
+.logo{
+    height: 14%;
+    width: 14%;
+}
+.event{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event_container{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    place-items: center;
+    place-content: center;
+}
+.rounded-circle{
+    height: 30vh;
+    filter: blur(10%);
+    background: inherit;
+}
+.card{
+    background-color: rgb(31, 31, 31);
+    margin: auto;
+}
+
+hr{
+    display: block;
+    margin: 50px 0 -15px;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background-color: white;
+}
+
+
+hr + h2 {
+    border-width: 1px 0;
+}
+hr + h2 {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    margin: 0;
+    padding: 5px 10px;
+    border: 1px solid #453986;
+    transform: translateX(-50%);
+    color: #453986;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.32em;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+@media(max-width:500px){
+
+ .event_container{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+/* CSS for Teams Page **/
+
+.teamsContainer {
+    margin: auto;               /*to be reviewed later **/
+    text-align: center;
+}
+
+.profile_card {
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+    background-color: #182538;
+    padding: 1em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto
+    ;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.fab {
+    color: white;
+    font-size: 18px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.fab:hover {
+    color: gray;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.profile_name, .profile_desc {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.profile_image {
+    width: 100%;
+}
+
+.layer_hod {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.layer_council {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    display: flex;
+}
+
+.layer_core {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+}
+
+.layer_executive_01, .layer_executive_02 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+}
+
+.team_section_title {
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#teams-page {
+    margin-top: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap%27');
+
+/*node connection lines css*/
+/* .center_line {
+    margin-left: 30em;
+    margin-right: auto;
+} */
+
+.Eventcontainer {
+    position: relative;
+}
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+   .first{
+    height: 50vh;
+  }
+  .Eventcontainer:hover .overlay {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+.text{
+    font-weight: bolder;
+}
+
+.typing {
+    margin-bottom: 3em;
+    color: white;
+}
+
+.typing>* {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingAnim 5s steps(50);
+}
+
+.typing>*::after {
+    content: ". .";
+    display: block;
+    position: absolute;
+    top: 1em;
+    left: .35em;
+}
+
+.typing>*::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 2.1em;
+    left: .25em;
+    width: 1em;
+    height: .1em;
+    border-radius: 100%;
+    background: #fff;
+    animation: typingSpeak .5s steps(2);
+    animation-iteration-count: 5;
+}
+
+@keyframes typingAnim {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes typingSpeak {
+    0% {
+        width: 1em;
+        height: .1em
+    }
+
+    100% {
+        width: 1em;
+        height: .5em;
+    }
+}
+@media(max-width:600px){
+    .header-i{
+        height: 80vh !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    canvas{
+        height: 50vh;
+        width: 100vw;
+    }
+    .typing h3{
+        font-size: 10px !important;
+    }
+    .notification{
+        height: 10vh !important;
+        width: 30vw !important;
+        font-size: 5px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .notification hr{
+        display: none;
+    }
+    .event_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .typing{
+        width: 80vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-handles{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
+    }
+    .main-heading{
+        display: block;
+        color: #00bfff;
+    }
+    
+    .nav-item{
+        font-size: small;
+    }
+}
+
+/*Css for teams page*/
+
+.teamsContainer {
+    margin: auto;               /*to be reviewed later **/
+    text-align: center;
+}
+
+.profile_card {
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+    background-color: #182538;
+    padding: 1em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto
+    ;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.fab {
+    color: white;
+    font-size: 18px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.fab:hover {
+    color: gray;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.profile_name, .profile_desc {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.profile_image {
+    width: 100%;
+}
+
+.layer_hod {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.layer_council {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    display: flex;
+}
+
+.layer_core {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+}
+
+.layer_executive_01, .layer_executive_02 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+}
+
+.team_section_title {
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#teams-page {
+    margin-top: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}

@@ -18,7 +18,7 @@ const Navbar = () => {
                     <a class="nav-link" href="/">About </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="pages/acmapp/team.html">Team</a>
+                    <a class="nav-link" href="/Teams">Team</a>
                     </li>
             
                     <li class="nav-item">

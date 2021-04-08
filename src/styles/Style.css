@@ -140,10 +140,8 @@ hr + h2 {
     padding: 1em;
     display: block;
     margin-right: auto;
-    margin-left: auto
-    ;
+    margin-left: auto;
     margin: auto;
-    border-radius: 100%;
 }
 
 .fab {
@@ -379,7 +377,6 @@ hr + h2 {
     margin-left: auto
     ;
     margin: auto;
-    border-radius: 100%;
 }
 
 .fab {

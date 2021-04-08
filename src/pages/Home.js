@@ -6,7 +6,6 @@ import Events from '../components/Events'
 import Gallary from '../components/Gallary'
 import Handles from '../components/Handles'
 import Footer from '../components/Footer'
-import Parallax from 'react-rellax'
 
 const Home = () => {
   return (
@@ -16,7 +15,6 @@ const Home = () => {
         <script src='particle.js'></script>
         <script src='jquery-3.5.1.js'></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="/path/to/parallax.js"></script>
         <title>MUACM</title>
       </Helmet>
 

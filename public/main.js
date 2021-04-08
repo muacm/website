@@ -118,7 +118,7 @@
 
   // set canvas to full screen
   function setWidthHeight() {
-    WIDTH = canvas.width = 800;
+    WIDTH = canvas.width = 600;
     HEIGHT = canvas.height = 1500;
     canvas.height = canvas.height - 2900;
     //canvas.width = canvas.width - 100;

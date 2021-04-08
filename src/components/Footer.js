@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.js'
 const Footer = () => {
     return (
         <div>
-            <div id="footer" style={{backgroundColor: '#16425b'}}>
+            <div id="footer" style={{background: 'linear-gradient(to right, slateblue 0%, deepskyblue 100%)'}}>
             <div class="f_container">
             <div class="box1">
                 <img src="MuACMlogo.png" alt="MUACM Demo Logo" />
@@ -30,10 +30,10 @@ const Footer = () => {
                 <h3>Social Media Handles</h3>
                 <ul>
                 <a href="https://www.instagram.com/mu_acm/">
-                    <li><i class="fa fa-instagram"></i></li>
+                    <li><i class="fa fa-instagram" style={{fontSize:'30px'}}></i></li>
                 </a>
                 <a href="https://www.linkedin.com/company/acm-student-chapter-medicaps/?trk=public_pos">
-                    <li><i class="fa fa-linkedin"></i></li>
+                    <li><i class="fa fa-linkedin" style={{fontSize:'30px'}}></i></li>
                 </a>
             
                 </ul>

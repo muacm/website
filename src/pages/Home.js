@@ -49,7 +49,7 @@ const Home = () => {
       </ul>
        <div className='header-2'><br/>
         <div className='container'>
-        <h1>About Medicaps Univeristy</h1><br/>
+        <h1>About Medicaps Universty</h1><br/>
          <p className='lead'> Medi-Caps has been a brand name in the arena of technical education. Since its inception in July 2000, Medi-Caps has consistently aimed at creating an ideal ambiance for budding technocrats and managers; and helping them to grow like true professionals. With its highly qualified faculty there seems an optimal blend of academic brilliance and industry exposure, supplemented by highly specialized visiting faculty and industry experts, senior professionals from various segments of different industries and business houses. It was time now to spread wings and move out for more exposure and widening of the periphery.</p><br/>
         <br/><br/>
       <h1>About ACM</h1><br/>

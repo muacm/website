@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Gallary = () => {
     return (
         <div className='container'>
-           <center><h2>Gallery</h2></center> <br/> <br/><br/>
+           <center><h2>Gallery</h2></center> <br/>
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <center>

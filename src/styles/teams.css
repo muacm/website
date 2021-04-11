@@ -1,0 +1,25 @@
+.profile-card {
+  width: 20vw !important;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.profile-card img{
+  height: 30vh;
+}
+.council_grid{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  place-items: center;
+}
+.core_grid{
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  place-items: center;
+  grid-gap: 4em;
+  width: 80vw;
+  place-content: center;
+}

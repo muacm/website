@@ -18,11 +18,11 @@ const Footer = () => {
             "linear-gradient(to right, slateblue 0%, deepskyblue 100%)",
         }}
       >
-        <div class="f_container">
-          <div class="box1">
+        <div className="f_container">
+          <div className="box1">
             <img src="MuACMlogo.png" alt="MUACM Demo Logo" />
           </div>
-          <div class="box2">
+          <div className="box2">
             <h3>Useful Links</h3>
             <ul>
               <a href="http://medicaps.ac.in">
@@ -39,50 +39,56 @@ const Footer = () => {
               </a>
             </ul>
           </div>
-          <div class="box2">
+          <div className="box2">
             <h3>Social Media Handles</h3>
             <ul>
               <a href="https://www.instagram.com/mu_acm/">
                 <li>
-                  <i class="fa fa-instagram" style={{ fontSize: "30px" }}></i>
+                  <i
+                    className="fa fa-instagram"
+                    style={{ fontSize: "30px" }}
+                  ></i>
                 </li>
               </a>
               <a href="https://www.linkedin.com/company/acm-student-chapter-medicaps/?trk=public_pos">
                 <li>
-                  <i class="fa fa-linkedin" style={{ fontSize: "30px" }}></i>
+                  <i
+                    className="fa fa-linkedin"
+                    style={{ fontSize: "30px" }}
+                  ></i>
                 </li>
               </a>
             </ul>
           </div>
-          <div class="slideshow-container">
-            <div class="mySlides fade">
-              <div class="numbertext">1 / 3</div>
+          <div className="slideshow-container d-none d-md-block">
+            <div className="mySlides fade">
+              <div className="numbertext">1 / 3</div>
               <img
                 src="profile/IMG_20210402_092458 - Rajesh Nathani.jpg"
                 alt="pic"
               ></img>
               <br />
-              <p className="lead">Rajesh Nathani</p>
+              <p classNameName="lead text-center">Rajesh Nathani</p>
             </div>
 
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 3</div>
+            <div className="mySlides fade">
+              <div className="numbertext">2 / 3</div>
               <img src="profile/IMG-20200426-WA0003-01 - Sarthak Khandelwal.jpeg"></img>
               <br />
-              <p className="lead">Sarthak Khandelwal</p>
+              <p classNameName="lead text-center">Sarthak Khandelwal</p>
             </div>
 
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 3</div>
+            <div className="mySlides fade">
+              <div className="numbertext">3 / 3</div>
               <img src="profile\profilePhotoRed - Yash Sehgal.jpg" />
               <br />
-              <p className="lead">Yash Sehgal</p>
+              <p classNameName="lead">Yash Sehgal</p>
             </div>
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 3</div>
+            <div className="mySlides fade">
+              <div className="numbertext">3 / 3</div>
               <img src="profile/IMG_20190309_221336_573 - mihir dutta.jpg" />
               <br />
-              <p className="lead">Mihir Dutta</p>
+              <p classNameName="lead text-center">Mihir Dutta</p>
             </div>
           </div>
         </div>

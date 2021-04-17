@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import "bootstrap/dist/css/bootstrap.css";
 import "../styles/contact.css";
@@ -6,12 +6,15 @@ import Footer from "../components/Footer";
 import "../styles/new.css";
 import "../styles/event.css";
 const Events = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div id="contact">
       <div class="container bootdey pt-5">
         <div class="row gutters">
-          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-            <div class="">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 pt-0 pt-md-5">
+            <div class="pt-5">
               <div class="card-body">
                 <div class="timeline">
                   <div class="timeline-row">

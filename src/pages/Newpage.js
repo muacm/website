@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/new.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Parallax from "react-rellax";
@@ -8,10 +8,12 @@ import Gallary from "../components/Gallary";
 import Handles from "../components/Handles";
 
 const Newpage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
-      {/* <div className="row m-0">
-        <div className="col-12"> */}
+      
       <Helmet>
         <script src="main.js"></script>
         <script src="particle.js"></script>
@@ -137,7 +139,7 @@ const Newpage = () => {
       <section className="bottom">
         <h4>Events</h4>
         <br />
-        <div className="">
+        <div className="row m-0">
           <Eventcard
             title="first event"
             text="First event conducted by ACM"

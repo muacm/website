@@ -17,7 +17,7 @@ const App = () => {
         <div className="col-12"> */}
           <Switch>
             <Route path="/" exact component={Newpage} />
-            <Route path="/contact" exact component={Contact} />
+            {/* <Route path="/contact" exact component={Contact} /> */}
             <Route path="/old" exact component={Home} />
             <Route path="/blogs" exact component={Blogs} />
             <Route path="/event" exact component={Events} />

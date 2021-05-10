@@ -1,17 +1,14 @@
 import React from 'react'
-import Home from './pages/Home'
-import Contact from './pages/Contact'
-import Teams from './pages/Teams';
-import Newpage from './pages/Newpage'
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "./Views/Home";
+import './Styles/main.css';
+
 const App = () => {
   return (
-    <div>
+    <div className="App">
         <Router>
-          <Route path="/" exact component={Newpage} />
-          <Route path="/contact" exact component={Contact} />
-          <Route path="/teams" exact component={Teams} />
-          <Route path="/old" exact component={Home} />
+          <Route path="/" exact component={Home} />
+          <Route path="/home" exact component={Home} />
       </Router>
     </div>
   )
